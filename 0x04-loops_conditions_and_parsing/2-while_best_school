@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#prints "Best School" ten times
 
 a=10
 while [ $a -gt 0 ];
