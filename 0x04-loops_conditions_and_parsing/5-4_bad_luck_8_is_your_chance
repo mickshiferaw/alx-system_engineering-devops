@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+#prints "bad luck" and "good luck" ten times
+
+a=10
+while [ $a -gt 0 ];
+do
+	((a--))
+    if [ $a == 6 ]; then
+  	echo "bad luck"
+    elif [ $a == 2 ]; then
+    	echo "good luck"
+    else
+        echo "Best School"
+    fi
+done
